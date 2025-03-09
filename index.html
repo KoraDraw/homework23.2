@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 80px;
+        }
+        .addPost{
+            border: none;
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <input type="text" id="title" placeholder="Введите название поста">
+    <input type="text" id="post" placeholder="Введите текст поста">
+    <button id="addPost" class="addPost" type="submit">Добавить</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
